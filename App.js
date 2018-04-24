@@ -10,7 +10,6 @@ import {
   TouchableOpacity,
   AsyncStorage,
   Alert,
-  CheckBox,
 } from 'react-native';
 
 export default class App extends React.Component {
@@ -85,7 +84,6 @@ export default class App extends React.Component {
           onChangeText={this.onChangeText}
           value={this.state.item}
           />
-            <CheckBox value={true}/>
         <ListView
           dataSource={this.ds.cloneWithRows(this.state.items)}
           renderRow={this.renderRow}
