@@ -138,3 +138,147 @@ const styles = StyleSheet.create({
     borderRadius: 10,
   },
 });
+
+
+
+//
+// import React from 'react';
+// import { StyleSheet, Text, View, AppRegistry, Image, TextInput, ScrollView, Button, Alert  } from 'react-native';
+//
+// export default class App extends React.Component {
+//   constructor(props) {
+//       super(props);
+//       this.state = {text: ''};
+//     }
+//     _onPress() {
+//   Alert.alert('on Press!');
+//     var inputData = {this.state.text};
+//  }
+//
+//   render() {
+//     return (
+//       <ScrollView style={styles.ScrollViewContainer}>
+//      <View  style={styles.container}>
+//       <View style={{padding: 10}}>
+//       <TextInput
+//         style={styles.textInputContainer}
+//         placeholder="Type here to macke a note!)"
+//         onChangeText={(text) => this.setState({text})}
+//       />
+//       <View style={styles.buttonContainer}>
+//           <Button onPress={this._onPress} title="Hello" color="#FFFFFF" accessibilityLabel="Tap on Me"/>
+//         </View>
+//       <Text style={{padding: 10, fontSize: 42}}>
+//
+//       </Text>
+//     </View>
+//     <Text style={{fontSize:96 }}>🍕</Text>
+//      </View>
+//      </ScrollView>
+//     );
+//   }
+// }
+//
+//
+//
+// const styles = StyleSheet.create({
+//   container: {
+//     flex: 1,
+//     backgroundColor: 'steelblue',
+//     //backgroundColor: '#fff',
+//     alignItems: 'center',
+//     justifyContent: 'center',
+//   },
+//   textInputContainer: {
+//     height: 40
+//   },
+//   ScrollViewContainer: {
+//     backgroundColor: 'steelblue'
+//   },
+//   buttonContainer: {
+//     backgroundColor: '#2E9298',
+//     borderRadius: 10,
+//     padding: 10,
+//     shadowColor: '#000000',
+//     },
+// });
+
+
+
+//
+// import React from 'react';
+// import { StyleSheet, Text, View, AppRegistry, Image, TextInput  } from 'react-native';
+//
+// export default class App extends React.Component {
+//   constructor(props) {
+//       super(props);
+//       this.state = {text: ''};
+//     }
+//   render() {
+//     return (
+//       // <View  style={styles.containerNext}>
+//       //  <Text>Hello World</Text>
+//       // </View>
+//       <View style={{padding: 10}}>
+//       <TextInput
+//         style={{height: 40}}
+//         placeholder="Type here to translate!"
+//         onChangeText={(text) => this.setState({text})}
+//       />
+//       <Text style={{padding: 10, fontSize: 42}}>
+//         {this.state.text.split(' ').map((word) => word && '🍕').join(' ')}
+//       </Text>
+//     </View>
+//     );
+//   }
+// }
+// AppRegistry.registerComponent('PizzaTranslator', () => PizzaTranslator);
+//
+//
+// const styles = StyleSheet.create({
+//   container: {
+//     flex: 1,
+//     backgroundColor: 'steelblue',
+//     //backgroundColor: '#fff',
+//     alignItems: 'center',
+//     justifyContent: 'center',
+//   }
+// });
+
+
+
+// import React from 'react';
+// import { StyleSheet, Text, View } from 'react-native';
+//
+// export default class App extends React.Component {
+//   render() {
+//     return (
+//       <View style={styles.container}>
+//         <Text>Hello World</Text>
+//       </View>
+//     );
+//   }
+// }
+//
+// const styles = StyleSheet.create({
+//   container: {
+//     flex: 1,
+//     backgroundColor: '#fff',
+//     alignItems: 'center',
+//     justifyContent: 'center',
+//   },
+// });
+
+
+// import React, { Component } from 'react';
+// import { AppRegistry, Text } from 'react-native';
+//
+// class HelloWorldApp extends Component {
+//   render() {
+//     return (
+//       <Text>Hello world!</Text>
+//     );
+//   }
+// }
+//
+// AppRegistry.registerComponent('HelloWorldApp', () => HelloWorldApp);
