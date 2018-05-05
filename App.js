@@ -9,7 +9,7 @@ import {
   ListView,
   TouchableOpacity,
   AsyncStorage,
-  Alert,
+  Alert
 } from 'react-native';
 
 export default class App extends React.Component {
@@ -138,5 +138,3 @@ const styles = StyleSheet.create({
     borderRadius: 10,
   },
 });
-
-
